@@ -68,7 +68,7 @@ async def getvideo(client, message):
     try:
         response = upload_file(viddir)
     except Exception as error:
-        await dwn.edit_text(f"Oops Something Went Wrong\n{error} Contact @LGcyALEX")
+        await dwn.edit_text(f"Oops Something Went Wrong\n{error} Contact @TheNavya")
         return
     await dwn.edit_text(f"https://telegra.ph{response[0]}")
     try:
